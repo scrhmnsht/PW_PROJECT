@@ -1,0 +1,262 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.row 
+{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: -35px;
+    margin-right: -200px;
+    background-color: #009E6E;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+
+}
+
+.main-nav li
+{
+    display: inline-block;
+
+}
+
+.main-nav li.active a
+{
+    border: 1px solid;
+
+}
+
+.main-nav li a:hover
+{
+    border: 0px solid white;
+    background-color: #0B5C3D;
+    font-family: "Quicksand Medium", Quicksand;
+    transition: all 0.5s ease-in;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Quicksand Medium", Quicksand;
+
+    font-size: 15px;
+}
+
+.navplus
+{
+    float: right;
+    list-style: none;
+    margin-top: -35px;
+    margin-right: 100px;
+    background-color: #009E6E;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.navplus li
+{
+    display: inline-block;
+
+}
+
+.navplus li.active a
+{
+    border: 1px solid;
+
+}
+
+.navplus li a:hover
+{
+    border: 0px solid white;
+    background-color: #0B5C3D;
+    font-family: "Quicksand Medium", Quicksand;
+    transition: all 0.5s ease-in;
+}
+
+.navplus li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Quicksand Medium", Quicksand;
+
+    font-size: 15px;
+}
+
+.userset
+{
+    float: right;
+    list-style: none;
+    margin-top: 62.5px;
+    margin-right: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.userset li
+{
+    display: inline-block;
+
+}
+
+.userset li.active a
+{
+    border: 1px solid;
+
+}
+
+.userset li a:hover
+{
+    border: 0px solid white;
+    background-color: #009E6E;
+    font-family: "Quicksand Medium", Quicksand;
+    transition: all 0.5s ease-in;
+}
+
+.userset li a
+{
+    color: #015C3B;
+    text-decoration: none;
+    padding: 15px 70px;
+    font-family: "Quicksand Medium", Quicksand;
+
+    font-size: 30px;
+}
+body
+{
+    font-family: monospace;
+     background-image: linear-gradient(rgba(200,232,231,0.7), rgba(200,232,231,0.2)), url(BG2.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+}
+
+.hero
+{
+    position: absolute;
+    width: 500px;
+    margin-left: 830px;
+    margin-top: -90px;
+}
+
+h1
+{
+    color: #0B5C3D;
+    font-size: 40px;
+    margin-top: 550px;
+    position: center;
+    font-family: Quicksand Medium;
+}
+
+.mama
+{
+    position: center;
+    width: 500px;
+    margin-left: -120px;
+    margin-top: -10px;
+}
+
+h2
+{
+    color: #0B5C3D;
+    font-size: 50px;
+    text-align: center;
+    font-family: Baloo;
+}
+
+
+.abt
+{
+    position: center;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: -20px;
+    margin-right: auto;
+}
+
+h3
+{
+    color: #0B5C3D;
+    font-size: 40px;
+    text-align: center;
+    font-family: Quicksand Medium;
+}
+
+.cu
+{
+    position: absolute;
+    width: 800px;
+    margin-left: 450px;
+    margin-top: 250px;
+}
+
+h4
+{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 375;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+.logo img
+{
+    width: 250px;
+    height: auto;
+    margin-left: -359px;
+    margin-top: 35px;
+}
+
+header {
+width: 1920px;
+height: 125px;
+float: left;
+background-image: url(Header.png)
+}
+
+.linehorz1 {
+margin-top: -475px;
+margin-left: -420px;
+background-color: #0B5C3D;
+width: 700px;
+height: 2px;
+}
+
+.DP {
+    margin-left: 295px;
+    margin-top: -35;
+    width: 50px;
+    height: auto;
+}
